@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReports.API", "MedicalReports.API\MedicalReports.API.csproj", "{8FB9464A-C590-4338-9008-667EECF008C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReports.Application", "MedicalReports.Application\MedicalReports.Application.csproj", "{160C305A-5621-47D1-BCA1-09B92E31A12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReports.Core", "MedicalReports.Core\MedicalReports.Core.csproj", "{0AA0D01A-26E6-457A-8C42-E2B28F1D18F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReports.Infrastructure", "MedicalReports.Infrastructure\MedicalReports.Infrastructure.csproj", "{0653324C-8CCC-4F8B-BF3E-356C7F7CB2B6}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{81DDED9D-158B-E303-5F62-77A2896D2A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.env = .env
+		.env.example = .env.example
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalReports.UnitTests", "MedicalReports.UnitTests\MedicalReports.UnitTests.csproj", "{13215A97-D553-8020-B683-7A8CB3E66F73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FB9464A-C590-4338-9008-667EECF008C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB9464A-C590-4338-9008-667EECF008C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB9464A-C590-4338-9008-667EECF008C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB9464A-C590-4338-9008-667EECF008C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160C305A-5621-47D1-BCA1-09B92E31A12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160C305A-5621-47D1-BCA1-09B92E31A12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160C305A-5621-47D1-BCA1-09B92E31A12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160C305A-5621-47D1-BCA1-09B92E31A12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA0D01A-26E6-457A-8C42-E2B28F1D18F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA0D01A-26E6-457A-8C42-E2B28F1D18F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA0D01A-26E6-457A-8C42-E2B28F1D18F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA0D01A-26E6-457A-8C42-E2B28F1D18F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0653324C-8CCC-4F8B-BF3E-356C7F7CB2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0653324C-8CCC-4F8B-BF3E-356C7F7CB2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0653324C-8CCC-4F8B-BF3E-356C7F7CB2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0653324C-8CCC-4F8B-BF3E-356C7F7CB2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81DDED9D-158B-E303-5F62-77A2896D2A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13215A97-D553-8020-B683-7A8CB3E66F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13215A97-D553-8020-B683-7A8CB3E66F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13215A97-D553-8020-B683-7A8CB3E66F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13215A97-D553-8020-B683-7A8CB3E66F73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEC5C8A7-9A43-4BC6-A52A-51DF7A701C4F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+services:
+  medicalreports.api:
+    image: ${DOCKER_REGISTRY-}medicalreportsapi
+    build:
+      context: .
+      dockerfile: MedicalReports.API/Dockerfile
+
+  medicalreportsdb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+
+volumes:
+  sqlserver_data:
