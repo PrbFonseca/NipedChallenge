@@ -1,3 +1,49 @@
+# Medical Reports API
+
+A RESTful API built with .NET and SQL Server that combines client medical data with guidelines to generate comprehensive medical reports.
+
+## Prerequisites
+
+- [Docker](https://www.docker.com/get-started) and Docker Compose
+
+## Quick Start
+
+1. **Configure environment**
+   Linux/Mac:
+```bash
+   cp .env.example .env
+```
+   
+   Windows:
+```bash
+   copy .env.example .env
+```
+   
+   Edit `.env` and set your database password.
+
+2. **Run the application**
+```bash
+   docker-compose up -d
+```
+
+3. **Access the API**
+   - API: http://localhost:8001
+   - Swagger: http://localhost:8001/swagger
+
+## Stop the Application
+```bash
+docker-compose down
+```
+
+## Technology Stack
+- **Backend:** ASP.NET Core Web API
+- **Database:** Microsoft SQL Server
+- **Architecture:** Clean Architecture (API, Application, Core, Infrastructure layers)
+- **Deployment:** Docker & Docker Compose
+- **Testing:** MSTest
+
+---
+
 # **Niped Challenge**
 
 In the Data folder of this repository you will find two JSON files, medical guidelines and client medical data with values that are referenced in the guidelines.
